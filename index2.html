@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>HTML DAY-2</title>
+</head>
+<body>
+    
+    The br tag stands for line break,it used to break any element and display it in web page.
+   <ol start="10">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+    </ol>
+
+    <ul> type="none">
+        <li>tomato</li>
+        <li>paotato</li>
+
+    </ul>
+
+<Description list >
+    dl - Description list
+    dt - Description term
+    dd - Description data 
+    
+        <dt>Car</dt>
+        <dd>Car has four wheel</dd>
+        <dt>Bike</dt>
+        <dd>Kaawasaki</dd>
+      </dl>
+
+      Semantic tag is the tag that tell about itself to browser and developers. 
+      Example: footer, header, nav, form, table
+
+     <a href="https://www.prepbytes.com/" target="_blank">prepbytes</a><br>
+
+     There are two ways of adding an image in the web page, they are relative and absolute path 
+    <Relative path> 
+    <img src="./cat.jp" alt="cat image" width="100px">
+
+    Absolute path
+    <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg" width="120px" alt="">
+
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Designation</th>
+        </tr>
+
+            <tr>
+                <td rowspan="2">Kanchan</td>
+                <td>Front-End Developer</td>
+                <td>Digital Marketer</td>
+            </tr> 
+            <tr>
+                
+                <td>Back end Developer</td>
+                <td>Devops Engineer</td>
+                <td><a href="https://www.prepbytes.com/">click here</a></td>
+            </tr>
+
+
+        
+     </table> 
+    
+
+    
+     <form action="./index3.html">
+
+      <label for="">Name</label>
+      <input type="text" name="Name" id="Name" value="" placeholder="enter your name....." required><br><br>
+
+      <label for="myemail">Email:</label>
+      <input type="email" name="email" id="myemail" value="" placeholder="enter your email" required><br><br>
+
+      <label for="myage">Age</label>
+      <input type="number" name="age" id="myage" value="" placeholder="enter your age" required><br><br>
+      
+      <label for="mycontact">contact</label>
+      <input type="tel" name="contact" id="mycontact" placeholder="enter your contact" required><br><br>
+
+
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" value="Male" id="gender">Male
+      <input type="radio" name="gender" value="Female" id="gender">Female
+      <input type="radio" name="gender" value="Transgender" id="gender">Transgender
+      <br><br>
+
+      <label for="Course">Course</label>
+      <input type="checkbox" name="Course1" value="HTML" id="Course" required>HTML
+      <input type="checkbox" name="Course2" value="CSS" id="Course">CSS
+      <input type="checkbox" name="Course3" value="JavaScript" id="Course">JavaScript
+
+
+
+
+      <input type="submit" value="Click Me!">
+     </form>
+
+</body>
+</html>
